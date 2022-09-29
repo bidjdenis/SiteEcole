@@ -1,0 +1,73 @@
+ 
+  .remarque
+  {
+    color:black;
+    background-color:#e84118;
+    margin-right:150px;
+  }
+  label
+  {
+	  display: inline-block;
+  }
+  .remarque::before
+  {
+			 content: "(champ obligatoire)";
+  }
+  .first::after
+  {
+			 content: "(champs obligatoire)";
+			 float: right;
+			 color: green;
+  }
+  .second::before
+  {
+			 content: "(champ obligatoire)";
+			  
+  }
+  .third::before
+  {
+			 content: "(champ obligatoire)";
+  }
+  .bold
+  {
+  font-weight: bolder;
+  }	 
+  
+  .first 
+  {
+  background-color:#e1b12c;
+  color:black;
+  margin-right:150px;
+  }
+  .second 
+  {
+  background-color:#e84118;
+  color:black;
+  margin-right:150px;
+  }
+  .third 
+  {
+  background-color:#e1b12c;
+  color:black;
+  margin-right:150px;
+  }
+  option
+  {
+  background-color:white;
+  color:black;
+  }
+  textarea
+  {
+  background-color:white;
+  color:black;
+  margin-left:100px;
+  }
+  input:focus,textarea:focus
+  {
+  background-color:blue;
+  }
+  p
+  {
+   font-size:17px;
+  }
+  

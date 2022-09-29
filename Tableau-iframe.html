@@ -1,0 +1,116 @@
+<!DOCTYPE html >
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Page 2</title>
+		<link rel="stylesheet" href="styles.css"/>
+		<script src="monscript.js">
+		
+     </script>
+	 </head>
+	  <body>
+
+           <div id="menu">
+	       <dl onmouseleave="javascript:montre();">
+	     	<dt onmouseover="javascript:montre();"><a href="index.html" title="Retour à l'accueil">Accueil</a></dt>
+			 <dd onmouseleave="javascript:montredd>();">  </dd>
+	       </dl>
+	
+	       <dl onmouseleave="javascript:montre();">			
+	    	<dt onmouseover="javascript:montre('smenu1');">Menu 1</dt>
+			<dd id="smenu1" onmouseleave="javascript:montre();">
+						  
+                     
+				<ul >
+				    
+					<li><a href="Formulaire.html#">Formulaire </a></li>
+
+					<li><a href="Tableau-iframe.html#">Tableau et iframe</a></li>
+					
+					
+				</ul>
+
+			</dd>
+	        </dl>
+	
+	
+	        <dl onmouseleave="javascript:montre();">	
+	    	<dt onmouseover="javascript:montre('smenu2');">Menu 2</dt>
+			<dd id="smenu2" onmouseleave="javascript:montre();">
+				<ul>
+					<li><a href="video-insert.html#">video et insert</a></li>
+					<li><a href="position-superposition.html#">position et superposition</a></li>
+                    <li><a href="Style-interne.html#"> Style interne</a></li>
+				</ul>
+			</dd>
+	        </dl>
+			</div>
+	<!-- Tableau-->
+	        <br>
+			<br><br><br>
+			
+			<div id="tableau">
+			
+		    <table>
+                  <caption>Liste des ingrédients</caption>
+
+            <tr>
+                <th>Pour les buns </th>
+                <th>Pour la garniture</th>
+                <th>Pour faire les pains</th>
+            </tr>
+            <tr>
+                <td>500 g de farine</td>
+                <td colspan="2">Mélangez à la main ou au robot la farine, la levure, le sel et le sucre</td>
+			</tr>
+			<tr>
+				<td>1 oeuf</td>
+				<td>Tomates fraîches</td>
+				<td>Ajoutez progressivement l'eau et le lait tièdes puis l'oeuf</td>
+			</tr>
+			<tr>
+				<td>30 g de beurre</td>
+				<td>Coriandre fraîche</td>
+				<td>Battez quelques minutes pour obtenir une boule de pâte homogène</td>
+			</tr>   
+            <tr>
+                <td>1 c. à café de sel</td>
+                <td>Pousses d'épinards</td>
+                <td>Rajoutez le beurre ramolli et continuez à pétrir pendant 2 minutes</td>
+			</tr>
+			<tr>
+				<td>100 ml de lait</td>
+				<td colspan="2">Laissez lever la boule de pâte pendant 1 heure à température ambiante</td>
+			</tr>
+			<tr>
+			    <td>150 ml d'eau</td>
+				<td>Viande de boeuf hâchée</td>
+				<td>Faites lever de nouveau les buns 30 à 60 minutes à température ambiante</td>
+			</tr>
+			<tr>
+			    <td>Graines de sésame ou de pavot</td>
+				<td>Herbes de provence</td>
+				<td>Mettez au four à 200° avec un bol d'eau pendant 20 minutes</td>
+            </tr>	 
+			
+            </table>
+			</div>
+			
+			<!--Fin tableau-->
+			
+			 <!-- iframe -->
+             <div class="container_iframe">
+             <h2 id="iframe">Iframe</h2>
+             <iframe class="iframe" src="https://lalibre.be/" name="iframe">
+             </iframe>
+			 </div>
+            	<!--footer-->
+		    <footer>
+		       <p>
+			      copyright &copy; Bidjada denis - 2021 All Right Reserved
+			   </p>
+		    </footer>
+	
+	
+	    </body>
+</html>

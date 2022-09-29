@@ -1,0 +1,73 @@
+<!DOCTYPE html >
+ <html lang="fr" >
+ <head >
+ 		<meta charset ="utf-8" />
+ 		<title >  page 3 </title >
+		<link rel="stylesheet" href="styles.css"/>
+		<link rel="stylesheet" media="screen" type="text/css" title="truc" href="styles.css" />
+		<script src="monscript.js">
+		
+     </script>
+	 </head>
+	  <body>
+
+           <div id="menu">
+	       <dl onmouseleave="javascript:montre();">
+		<dt onmouseover="javascript:montre();"><a href="index.html" title="Retour à l'accueil">Accueil</a></dt>
+		<dd onmouseleave="javascript:montredd>();">  </dd>
+	    </dl>
+	
+	     <dl onmouseleave="javascript:montre();">			
+		 <dt onmouseover="javascript:montre('smenu1');">Menu 1</dt>
+			<dd id="smenu1" onmouseleave="javascript:montre();">
+						  
+                     
+				<ul >
+				     
+					<li><a href="Formulaire.html#">Formulaire</a></li>
+
+					<li><a href="Tableau-iframe.html#">Tableau et iframe</a></li>
+					
+					
+				</ul>
+
+			</dd>
+	        </dl>
+	
+	
+	        <dl onmouseleave="javascript:montre();">	
+		    <dt onmouseover="javascript:montre('smenu2');">Menu 2</dt>
+			<dd id="smenu2" onmouseleave="javascript:montre();">
+				<ul>
+					<li><a href="video-insert.html#">video et insert</a></li>
+					<li><a href="position-superposition.html#">position et superposition</a></li>
+                    <li><a href="Style-interne.html#"> Style interne</a></li>
+				</ul>
+			</dd>
+	        </dl>
+			</div>
+	 <!-- Vidéo -->
+	 <br>
+            <div class="container_video">
+            <h2 id="video" class="titre_video">Séquence vidéo originale</h2>
+            <br >
+            <video class="video" controls poster="burger.jpg"> 
+            <source src="video.mp4" type="video/mp4" />
+            </video>
+			</div>
+    
+	<!-- Insert-->
+	         <div class="container_iframe">
+             <h2 id="iframe">Insert page interne</h2>
+             <iframe class="iframe" src="position-superposition.html" name="iframe">
+             </iframe>
+	        </div>
+	<!--footer-->
+		<footer>
+		       <p>
+			      copyright &copy; Bidjada denis - 2021 All Right Reserved
+			   </p>
+		</footer>
+	    </body>
+		
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang='fr'>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width"/>
+		<link rel=" stylesheet" href="Formulaire.css"/>
+		<link rel=" stylesheet" href="styles.css"/>
+		<title> Page 5</title>
+		<script src="monscript.js">
+		
+     </script>
+	 </head>
+	 
+	 <body>
+
+          <div id="menu">
+	      <dl onmouseleave="javascript:montre();">
+		  <dt onmouseover="javascript:montre();"><a href="index.html" title="Retour à l'accueil">Accueil</a></dt>
+		  <dd onmouseleave="javascript:montredd>();">  </dd>
+	      </dl>
+	
+	      <dl onmouseleave="javascript:montre();">			
+		   <dt onmouseover="javascript:montre('smenu1');">Menu 1</dt>
+		  	<dd id="smenu1" onmouseleave="javascript:montre();">
+						  
+                     
+				<ul >
+				    
+					<li><a href="Formulaire.html#">Formulaire </a></li>
+
+					<li><a href="Tableau-iframe.html#">Tableau et iframe</a></li>
+					
+					
+				</ul>
+
+			</dd>
+	        </dl>
+	
+	
+	        <dl onmouseleave="javascript:montre();">	
+		    <dt onmouseover="javascript:montre('smenu2');">Menu 2</dt>
+			<dd id="smenu2" onmouseleave="javascript:montre();">
+				<ul>
+					<li><a href="video-insert.html#">video et insert</a></li>
+					<li><a href="position-superposition.html#">position et superposition</a></li>
+                    <li><a href="Style-interne.html#"> Style interne</a></li>
+				</ul>
+			</dd>
+	        </dl>
+	        </div>
+		
+		<br><br><br><br>
+		
+		<p>Formulaire</p>
+ 
+		
+
+		
+		<form method="post" action="traitement.php">
+			<pre class="first" id = "idfocus">
+					<br>
+					<label for="nom"> Nom :         </label>
+					<input type="text" name="Nom" size="25" id="nom"/>
+					<label for="prenom"> Prénom :					</label>
+					<input type="text" name="Prénom" size="25" id="prenom"/>
+					<label for="mail"> adresse e-mail :					</label>
+					<input type="email" name="adresse e-mail" size="25" id="mail"/>
+					<label for="mdp"> Mot de passe :					</label>
+					<input type="password" name="Prénom" size="25" id="mdp"/>
+			</pre>
+			
+			<span class="bold" id="idspan">Sélectionnez votre reponse:</span>
+			<p class="first">
+				<input type="checkbox" name="aime" checked="checked" id="first"/>
+				<label for="first">Vrai.				</label>
+	<input type="checkbox" name="meilleur" id="second"/>
+				<label for="second">Faux.				</label>
+				<br/>
+			</p>
+		<p class="second">
+			<span class="bold">Choisissez un option:</span>
+			<br/>
+			<input type="radio" name="préféré" value="1" checked="checked"/>
+option 1			<br/>
+			<input type="radio" name="préféré" value="2"/>
+option 2.			<br/>
+			<input type="radio" name="préféré" value="3"/>
+option 3.			<br/>
+			<input type="radio" name="préféré" value="4"/>
+option 4.
+		</p>
+		<p class="third">
+			<span class="bold">choissisez</span>
+			
+			<select size="3" name="potentiel">
+				<option value="first" selected="selected">A</option>
+				<option value="second">B</option>
+				<option value="third">C</option>
+				<option value="fourth">D</option>
+			</select>
+		</p>
+		<p class="remarque">
+			<span class ="bold"> Avez vous une remarque ?</span>
+			<select name="suggestion">
+				<option value="first" selected="selected"> 1</option>
+				<option value="second">2</option>
+				<option value="third">3</option>
+				<option value="quatre">4 </option>
+			</select>
+		</p>
+		<p class="third">
+			<span class ="bold" id="idbefore">Un commentaire?  :</span>
+			
+			<textarea name="commentaires" rows="4" cols="55"> </textarea>
+			<br/>
+			<br/>
+			<input type="reset" value="Effacer et recommencer"/>
+		</p>
+	</form>
+	        <!--footer-->
+		
+		    <footer>
+		       <p>
+			      copyright &copy; Bidjada denis - 2021 All Right Reserved
+			   </p>
+		    </footer>
+	
+	    </body>
+		
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang='fr'>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width"/>
+		<link rel=" stylesheet" href="styles.css"/>
+		<title> Page 1</title>
+		<script src="monscript.js">
+		
+     </script>
+	 </head>
+	 
+	 <body>
+
+          <div id="menu">
+	      <dl onmouseleave="javascript:montre();">
+		  <dt onmouseover="javascript:montre();"><a href="" title="Retour à l'accueil">Accueil</a></dt>
+		  <dd onmouseleave="javascript:montredd>();">  </dd>
+	      </dl>
+	
+	      <dl onmouseleave="javascript:montre();">			
+		   <dt onmouseover="javascript:montre('smenu1');">Menu 1</dt>
+		  	<dd id="smenu1" onmouseleave="javascript:montre();">
+						  
+                     
+				<ul >
+				    
+					<li><a href="Formulaire.html#">Formulaire</a></li>
+
+					<li><a href="Tableau-iframe.html#">Tableau et iframe</a></li>
+					
+					
+				</ul>
+
+			</dd>
+	        </dl>
+	
+	
+	        <dl onmouseleave="javascript:montre();">	
+		    <dt onmouseover="javascript:montre('smenu2');">Menu 2</dt>
+			<dd id="smenu2" onmouseleave="javascript:montre();">
+				<ul>
+					<li><a href="video-insert.html#">video et insert</a></li>
+					<li><a href="position-superposition.html#">position et superposition</a></li>
+                    <li><a href="Style-interne.html#"> Style interne</a></li>
+					
+				</ul>
+			</dd>
+	        </dl>
+	        </div>
+			<br><br><br><br><br><br><br>
+			<main style="border: 1px solid black; position: relative;">
+			<h1>Bienvenue sur notre site</h1>
+			<br>
+			<h2> Le design du site s'adaptera automatiquement à une présentation sur différents appareils mobiles</h2>
+			<!--les différentes balises et propriétés css-->
+			<article>
+			<div id="balises">
+			
+		    <h2> Je vous présente les différentes balises html et propriétés css </h2>
+	        <p class="bspan"><a style="color: red; font-family: helvetica; font-size:20px"> span</a>: Je l'ai utilisé dans le formulaire pour contenir le titre des différentes sections.<a href="Formulaire.html#idspan"><br>lien vers span</a></p>
+			<p class="bfocus"><a style="color: red; font-family: helvetica; font-size:20px">focus</a>: Je l'ai aussi utilisé dans formulaire pour cibler les différents eléments de ce dernier. <a href="Formulaire.html#idfocus"><br>lien vers focus</a></p>
+			<p class="bbefore"><a style="color: red; font-family: helvetica; font-size:20px">before</a>: Je l'ai utilisé avec la propriété css "content" pour les champs obligatoires du formulaire. <a href="Formulaire.css#idbefore"><br>lien vers before</a></p>
+			<p class="bafter"><a style="color: red; font-family: helvetica; font-size:20px">after</a>: Je l'ai utilisé avec la propriété css "content" pour mettre à droite les champs obligatoires du formulaire. <a href="Formulaire.css#idafter"><br>lien vers after</a></p>
+			<p class="bhover"><a style="color: red; font-family: helvetica; font-size:20px">hover</a>: Je l'ai utilisé sur chaque menus lorsqu'on survolent sur les sous menus. <a href="Tableau-iframe.html"><br>lien vers hover</a></p>
+			<p class="barticle"><a style="color: red; font-family: helvetica; font-size:20px">article</a>: Je l'ai utilisé pour contenir des textes pour le positionnement des blocs.<a href="position-superposition.html#idarticle"><br>lien vers article</a></p>
+			<p class="bem"><a style="color: red; font-family: helvetica; font-size:20px"> em</a>: Je l'ai utilisé pour mettre des textes en itallique dans un bloc.<a href="position-superposition.html#idem"><br>lien vers em</a></p>
+			<p class="bstrong"> <a style="color: red; font-family: helvetica; font-size:20px">strong</a>: Je l'ai utilisé pour mettre un texte en gras dans un bloc.<a href="position-superposition.html#idstrong"><br>lien vers strong</a> </p>
+			<p class="bDisplay-inlineblock"> <a style="color: red; font-family: helvetica; font-size:20px">Display-inlineblock</a>: Je l'ai utilisé dans formulaire.css à côté de label qui passe d'un display à valeur inline à un display: inline-block.<a href="Formulaire.css"><br>lien vers Display-inlineblock</a></p>
+			<p class="boverflow"> <a style="color: red; font-family: helvetica; font-size:20px">overflow</a>: Je l'ai utilisé dans mon "css" pour gérer le dépassement de contenu du bloc1.<a href="position-superposition.html#class2"> <br>lien vers overflow</a></p>
+	        </div>
+			<nav>
+					<a href="formulaire.css">formulaire</a> |
+					<a href="burger.jpg">Image</a> |
+					<a href="styles.css">styles</a>
+			</nav>
+			</article>
+			<aside style="float: right;">
+			<p>
+			Examen web 2ème session. Quisque mollis, dui eu laoreet feugiat, nisl massa 
+	        pellentesque nulla, a placerat urna nulla quis enim. Praesent non nisi magna. Nunc at aliquet magna.
+			</p>
+			</aside>
+			</main>
+			
+			<!--footer-->
+		<footer>
+		       <p>
+			      copyright &copy; Bidjada denis - 2021 All Right Reserved
+			   </p>
+		</footer>
+			
+	    </body>
+</html>
